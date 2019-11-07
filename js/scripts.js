@@ -44,11 +44,13 @@ $(document).ready(function(){
     event.preventDefault();
     player1.addScore(player1.turn)
     console.log(player1.score)
+    $("#score1").text(player1.score);
   })
   $("#hold2").click(function(event) {
     event.preventDefault();
     player2.addScore(player2.turn)
     console.log(player2.score)
+    $("#score2").text(player2.score);
   })
 
   $("#button").click(function(event){

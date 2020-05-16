@@ -1,4 +1,7 @@
 # Pig Dice
+## Description 
+
+A fun little Pig Dice game for two players
 
 ## Specifications
 
